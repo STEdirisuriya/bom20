@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+*{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.welcome-card{
+  position: relative;
+  height: 470px;
+}
+
+.welcome-card .bgimg {
+  overflow: hidden;
+  opacity: 0.5;
+  z-index: -1;
+  min-height: 70vh;
+  max-height: 180vh;
+}
+
+.score-header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+ion-card-subtitle.school {
+  font-size: 110%;
+  background: rgba(206, 8, 8, 0.4);
+  color: rgb(255, 215, 38);
+  border-left: rgb(223, 35, 35) solid 20px;
+  padding: 5px 10px;
+}
+
+img.logomain{
+  width: 90px;
+  height: 90px;
+  margin-top: 8px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+div.score{
+  background: rgba(255, 215, 38);
+}
+
+ion-card-title.points{
+  font-size: 500%;
+  margin-right: 5px;
+  text-align: right;
+  margin-bottom: -10px;
+}
+
+div.underpts{
+  font-size: 110%;
+  text-align: right;
+  padding-bottom: 5px;
+}
+
+div.overs{
+  text-align: left;
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 3px;
+}
+
+div.rate{
+  text-align: right;
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 3px;
+}
+
+div.extras{
+  background: rgba(206, 8, 8, 0.911);
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+ion-title.extrapts{
+  font-size: 100%;
+  padding-left: 12px;
+}
+
+div.players{
+  margin-top:10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  color: rgb(0, 0, 0);
+}
+
+div.topic{
+  background: rgba(0, 0, 0, 0.185);
+  padding:5px;
+  margin-bottom:5px;
+}
+
+ion-title.player{
+  font-size: 100%
+}
+
+.scoreboard-btn{
+  margin-top: 20px;
+}
+
+.logo{
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.acicts{
+  margin-left:-20px;
+  font-size: 80%;
+  margin-top: 5px;
+  display: inline-block;
+  position: absolute;
+}
